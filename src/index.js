@@ -9,6 +9,7 @@ import Header from "./common/header/Header";
 import Home from "./components/Home/Home"
 import SignIn from "./components/SignPage/SignIn";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import Product from './components/Products/Product';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path ="/signIn" element={<SignIn/>}/>
+        <Route exact path='/product' element={<Product/>}/>
       </Routes>
     </Router>
   </div>,
