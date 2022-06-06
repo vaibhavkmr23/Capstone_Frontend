@@ -5,7 +5,7 @@ export default class Login extends Component {
         return (
             <div>
                 <NavBarForSign />
-                <form style={{margin: "20px 20px 20px 20px"}}>
+                <form style={{margin: "2% 30% 0% 30%", maxWidth: "40%"}}>
                     <h3>Sign In</h3>
                     <div className="mb-3">
                         <label>Email address</label>

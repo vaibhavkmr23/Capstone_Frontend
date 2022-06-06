@@ -15,6 +15,7 @@ export default function Toggle() {
             value={alignment}
             exclusive
             onChange={handleChange}
+            sx={{ padding: "1% 30% 1% 30%"}}
         >
             <ToggleButton value="all">All</ToggleButton>
             <ToggleButton value="apprel">APPREL</ToggleButton>

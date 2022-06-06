@@ -10,6 +10,7 @@ import Home from "./components/Home/Home"
 import SignIn from "./components/SignPage/SignIn";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Product from './components/Products/Product';
+import SignUp from './components/SignPage/SignUp';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path ="/signIn" element={<SignIn/>}/>
+        <Route exact path ="/signUp" element={<SignUp/>}/>
         <Route exact path='/product' element={<Product/>}/>
       </Routes>
     </Router>

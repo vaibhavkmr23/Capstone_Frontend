@@ -13,7 +13,7 @@ export default function SortSelect() {
     };
 
     return (
-        <Box sx={{ minWidth: 120 }}>
+        <Box sx={{ maxWidth: 150, padding: "1%" }}>
             <FormControl fullWidth>
                 <InputLabel id="demo-simple-select-label">Age</InputLabel>
                 <Select

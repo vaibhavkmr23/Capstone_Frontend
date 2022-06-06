@@ -5,7 +5,7 @@ export default class SignUp extends Component {
     return (
       <div>
         <NavBarForSign />
-        <form>
+        <form style={{margin: "2% 30% 0% 30%", maxWidth: "40%"}}>
           <h3>Sign Up</h3>
           <div className="mb-3">
             <label>First name</label>
@@ -41,7 +41,7 @@ export default class SignUp extends Component {
             </button>
           </div>
           <p className="forgot-password text-right">
-            Already registered <a href="/sign-in">sign in?</a>
+            Already registered <a href="/signIn">sign in?</a>
           </p>
         </form>
       </div>

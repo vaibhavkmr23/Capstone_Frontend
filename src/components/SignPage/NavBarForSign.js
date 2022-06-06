@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
 
 export default function NavBarForSign() {
     return (
@@ -19,10 +20,11 @@ export default function NavBarForSign() {
                         aria-label="menu"
                         sx={{ mr: 2 }}
                     >
-                        <MenuIcon />
+                        {/* <MenuIcon /> */}
+                        <ShoppingCartSharpIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        News
+                        upGrad E-Shop
                     </Typography>
                     <Button color="inherit">Sign-In</Button>
                 </Toolbar>
